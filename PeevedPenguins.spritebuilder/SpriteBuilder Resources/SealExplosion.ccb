@@ -40,7 +40,7 @@
 		<key>children</key>
 		<array/>
 		<key>customClass</key>
-		<string></string>
+		<string>SealExplosion</string>
 		<key>displayName</key>
 		<string>CCParticleSystem</string>
 		<key>memberVarAssignmentName</key>
