@@ -19,6 +19,7 @@
     CCPhysicsJoint *_mouseJoint;
     CCNode *_currentPenguin;
     CCPhysicsJoint *_penguinCatapultJoint;
+    CCParticleSystem *explosion;
 }
 
 // is called when CCB file has completed loading
