@@ -617,7 +617,7 @@
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>CCButton</string>
+						<string>Retry</string>
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
@@ -639,8 +639,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>67.519050598144531</real>
-									<real>269.46917724609375</real>
+									<real>529.4190673828125</real>
+									<real>274.71804809570312</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -722,7 +722,7 @@
 								<string>String</string>
 								<key>value</key>
 								<array>
-									<string>Title</string>
+									<string>Retry man.</string>
 									<false/>
 								</array>
 							</dict>
