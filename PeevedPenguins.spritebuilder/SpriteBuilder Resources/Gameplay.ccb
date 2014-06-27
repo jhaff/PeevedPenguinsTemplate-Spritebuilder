@@ -71,8 +71,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>529.4190673828125</real>
-							<real>274.71804809570312</real>
+							<real>71.455711364746094</real>
+							<real>283.903564453125</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -364,6 +364,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1033,7 +1035,7 @@
 					</dict>
 				</array>
 				<key>customClass</key>
-				<string></string>
+				<string>_contentNode</string>
 				<key>displayName</key>
 				<string>CCNode (ORGANIZER)</string>
 				<key>memberVarAssignmentName</key>
@@ -1102,8 +1104,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
