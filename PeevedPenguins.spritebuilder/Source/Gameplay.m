@@ -40,6 +40,8 @@
     // whenever touches move, update the position of the mouseJointNode to the touch position
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     _mouseJointNode.position = touchLocation;
+    
+    
 }
 
 // called on every touch in this scene
@@ -148,6 +150,17 @@
     }
 }
 - (void)sealRemoved:(CCNode *)seal {
+    [seal removeFromParent];
+    // load particle effect
+    CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"SealExplosion"];
+    // make the particle effect clean itself up, once it is completed
+    explosion.autoRemoveOnFinish = TRUE;
+    // place the particle effect on the seals position
+    explosion.position = seal.position;
+    // add the particle effect to the same node the seal is on
+    [seal.parent addChild:explosion];
+    
+    // finally, remove the destroyed seal
     [seal removeFromParent];
 }
 
