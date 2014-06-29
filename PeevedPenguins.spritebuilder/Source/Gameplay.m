@@ -97,7 +97,8 @@
     [_contentNode runAction:follow];
     
 }
-    - (void)releaseCatapult {
+
+- (void)releaseCatapult {
         if (_mouseJoint != nil)
         {
             // releases the joint and lets the catapult snap back
