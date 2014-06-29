@@ -165,11 +165,7 @@
     // finally, remove the destroyed seal
     [seal removeFromParent];
     
-    wait(500);
-    {
-    [explosion removeFromParent];
-    }
-}
+   }
 
 
 
