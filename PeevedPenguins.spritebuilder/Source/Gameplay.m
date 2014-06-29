@@ -165,6 +165,7 @@
     // finally, remove the destroyed seal
     [seal removeFromParent];
      explosion.autoRemoveOnFinish = TRUE;
+    wait(5);
     [explosion removeFromParent];
 }
 
