@@ -75,7 +75,11 @@
 -(void) startWithTarget:(id)aTarget
 {
 	_originalTarget = _target = aTarget;
+    
 }
+
+    
+
 
 -(void) stop
 {
