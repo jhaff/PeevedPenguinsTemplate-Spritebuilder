@@ -166,7 +166,9 @@
     [seal removeFromParent];
     
     wait(500);
+    {
     [explosion removeFromParent];
+    }
 }
 
 
